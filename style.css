@@ -1,0 +1,50 @@
+/* Accessibility CSS Variables */
+:root {
+  --base-font-size: 16px;
+  --base-line-height: 1.5;
+  --base-contrast: 100%;
+}
+
+body {
+  font-size: var(--base-font-size);
+  line-height: var(--base-line-height);
+  filter: contrast(var(--base-contrast));
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+.accessibility-panel {
+  background: #ffffff;
+  border: 2px solid #333;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  max-width: 320px;
+}
+
+.accessibility-panel h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.control-group {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.control-group label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.content {
+  max-width: 600px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
